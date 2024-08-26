@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Info from './components/Info'
+import Brands from './components/Brands'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,95 +16,8 @@ function App() {
       <div>
         <Navbar/>
         <Header/>
-        <section className="information mt-5 container">
-          <div className="row text-center">
-            <div className="col-md-4 mb-4 d-flex">
-              <i
-                className="fa fa-shopping-basket text-success me-3 fs-1 pt-2"
-                aria-hidden="true"
-              />
-              <div>
-                <h4>Top quality</h4>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur <br />
-                  elit. Mollitia dolore repellendus.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-4 mb-4 d-flex">
-              <i
-                className="fa fa-shopping-basket text-success me-3 fs-1 pt-2"
-                aria-hidden="true"
-              />
-              <div>
-                <h4>Top quality</h4>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur <br />
-                  elit. Mollitia dolore repellendus.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-4 mb-4 d-flex">
-              <i
-                className="fa fa-shopping-basket text-success me-3 fs-1 pt-2"
-                aria-hidden="true"
-              />
-              <div>
-                <h4>Top quality</h4>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur <br />
-                  elit. Mollitia dolore repellendus.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="images m-3 d-flex flex-wrap justify-content-center">
-          <div className="img-container">
-            <div className="img1 position-relative">
-              <button
-                type="button"
-                className="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-4"
-              >
-                Shop Hoodies
-              </button>
-            </div>
-            <div className="img2 position-relative mt-2">
-              <button
-                type="button"
-                className="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-4"
-              >
-                Shop Tanktop
-              </button>
-            </div>
-          </div>
-          <div className="img3 position-relative">
-            <button
-              type="button"
-              className="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-4"
-            >
-              Shop T-Shirt
-            </button>
-          </div>
-          <div className="img-container">
-            <div className="img4 position-relative">
-              <button
-                type="button"
-                className="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-4"
-              >
-                Shop Sweater
-              </button>
-            </div>
-            <div className="img5 position-relative mt-2">
-              <button
-                type="button"
-                className="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-4"
-              >
-                Shop Designer
-              </button>
-            </div>
-          </div>
-        </section>
+        <Info/>
+        <Brands/>
         <section className="container mt-5 w-60">
           <div className="text-center mb-5">
             <p className="pra">Featured products</p>
